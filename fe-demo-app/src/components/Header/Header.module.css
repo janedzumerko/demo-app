@@ -1,0 +1,30 @@
+.content {
+	width: 600px;
+	display: flex;
+	justify-content: center;
+}
+
+.menu {
+	display: flex;
+	margin: 0;
+}
+
+.menu > li {
+	list-style-type: none;
+	margin: 10px;
+}
+
+.item {
+	padding: 0 10px;
+	cursor: pointer;
+	font-weight: 700;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
+}

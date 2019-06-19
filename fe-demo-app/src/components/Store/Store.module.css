@@ -1,0 +1,27 @@
+.wrapper {
+    margin-top: 90px;
+    max-width: 1050px;
+    width: 100%;
+}
+
+.store {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.storeInfo {
+    padding: 35px 35px 35px 0; 
+    width: 50%;
+}
+
+.storeItem {
+    width: 50%;
+    flex: 0 1 50%;
+}
+
+.storeImage {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}

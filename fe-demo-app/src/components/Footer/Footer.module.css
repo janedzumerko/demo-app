@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 1050px;
+    width: 100%;
+}
+
+.left {
+    text-align: left;
+}
+
+.middle {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}

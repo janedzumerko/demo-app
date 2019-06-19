@@ -1,0 +1,62 @@
+.item {
+	position: relative;
+	height: 280px;
+	margin-bottom: 30px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.inside {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-image: url(//cdn.shopify.com/s/files/1/1852/7073/collections/pinqponq-seasonals-nos-ss19__69_grande.jpg?v=1555686952);
+	transition: all 0.8s ease-in-out;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.inside:hover {
+	transform: scale(1.04);
+}
+
+.inside::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.2;
+	background-color: #000;
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	-ms-transition: all 0.8s ease;
+	-o-transition: all 0.8s ease;
+	transition: all 0.8s ease;
+}
+
+.inside:hover::after {
+	opacity: 0.5;
+}
+
+.temp {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	pointer-events: none;
+	display: table;
+	table-layout: fixed;
+	color: #fff;
+	cursor: pointer;
+}
+
+.text {
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+	font-size: 1.9em;
+	text-align: center;
+}

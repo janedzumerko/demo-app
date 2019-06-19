@@ -1,0 +1,18 @@
+.dropdown {
+	padding: 10px;
+	cursor: pointer;
+	font-weight: 700;
+}
+
+.dropdownMenu {
+	border: 1px solid white !important;
+	border-radius: 0;
+	top: -2px !important;
+	-webkit-box-shadow: 0px 11px 25px -13px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 0px 11px 25px -13px rgba(0, 0, 0, 1);
+	box-shadow: 0px 11px 25px -13px rgba(0, 0, 0, 1);
+}
+
+.dropdownMenu > button {
+	padding-left: 10px;
+}

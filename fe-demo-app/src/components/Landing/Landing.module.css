@@ -1,0 +1,31 @@
+.bg {
+	/* split screen on three equal parts */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	/* The image used */
+	background-image: url('http://www.carolannpeacock.com/wp-content/uploads/2018/12/Bedroom-wallpaper-from-grahambrown-and-get-inspired-to-decorate-your-bedroom-with-smart-decor-1.jpg');
+	/* Full height */
+	height: 100%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.button {
+	color: white;
+	border-color: white;
+}
+
+.button:hover {
+	color: black;
+	background: white;
+	border: 1px solid white;
+}
+
+.title {
+	font-size: 4em;
+	color: whitesmoke;
+}

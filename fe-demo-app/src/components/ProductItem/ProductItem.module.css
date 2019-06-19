@@ -1,0 +1,26 @@
+.item {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.inside {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/1852/7073/products/30000610_10530000610-105_32_grande.jpg?v=1553637610);
+    transition: all .8s ease-in-out;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inside:hover {
+    opacity: 0.85;
+}
+
+.info {
+    padding: 13px 0;
+    margin-bottom: 30px;
+}

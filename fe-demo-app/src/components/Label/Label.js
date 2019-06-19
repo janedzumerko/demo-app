@@ -5,7 +5,7 @@ function Label(props) {
 	return (
 		<label className={classes.lbl}>
 			<span>{props.title}</span>
-			<input type={props.type} />
+			<input onChange={props.change} name={props.name} type={props.type} />
 		</label>
 	);
 }
